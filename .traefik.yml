@@ -2,7 +2,7 @@ displayName: Static Response
 type: middleware
 iconPath: .assets/icon.png
 
-import: github.com/jdel/staticresponse
+import: github.com/neuraflow-github/my-traefik-staticresponse-plugin
 
 summary: 'Static Response Middleware'
 

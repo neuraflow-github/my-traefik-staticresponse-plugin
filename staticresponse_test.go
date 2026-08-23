@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jdel/staticresponse"
+	"github.com/neuraflow-github/my-traefik-staticresponse-plugin"
 )
 
 type TestCase struct {

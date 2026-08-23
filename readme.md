@@ -12,7 +12,7 @@ Follow traefik's instructions https://plugins.traefik.io/install.
 experimental:
   plugins:
     staticresponse:
-      moduleName: "github.com/jdel/staticresponse"
+      moduleName: "github.com/neuraflow-github/my-traefik-staticresponse-plugin"
       version: "v0.0.1"
 ```
 
