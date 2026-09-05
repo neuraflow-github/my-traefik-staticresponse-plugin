@@ -3,6 +3,8 @@ type: middleware
 iconPath: .assets/icon.png
 
 import: github.com/neuraflow-github/my-traefik-staticresponse-plugin
+# The go package is staticresponse, but traefik and the plugin analyzer both derive the identifier they evaluate from the last element of the import path with dashes turned into underscores, which would be my_traefik_staticresponse_plugin here. Without this the analyzer fails with undefined: my_traefik_staticresponse_plugin and the plugin is never imported into the catalog.
+basePkg: staticresponse
 
 summary: 'Static Response Middleware'
 
